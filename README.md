@@ -21,16 +21,19 @@
 #### Exploratory Data Analysis 
 - Data Preprocessing: Designed pipelines to clean and preprocess training and testing datasets, Exploratory Data Analysis (EDA)
    1.	Analyzed class imbalance (91% non-defaults, 9% defaults).
-   2. Visualized non-linear relationships between income, credit amount, and default status.
+   2. Visualized non-linear relationships between income, credit amount, and default status.<img width="610" alt="Non linear Separable check" src="https://github.com/user-attachments/assets/f112096d-8144-4b09-a9fb-ea0cca59c03f" />
+
   - Feature Engineering: Transformed categorical variables, handled class imbalance, and selected predictive features.
   - Model Development: Built and optimized machine learning models, including Logistic Regression, Decision Trees, and XGBoost.
   - Evaluation and Visualization: Created ROC-AUC plots, confusion matrices, and performance metrics for comparison.
   -	Documentation: Authored clear and reproducible R Markdown notebooks
 ### Results and Success Metrics
 ####	Model Performance:
--	Logistic Regression: ROC-AUC = 0.78
--  Decision Tree: ROC-AUC = 0.75
+-	Logistic Regression: ROC-AUC = 0.78<img width="607" alt="ROC" src="https://github.com/user-attachments/assets/aa5c7757-12b9-4ada-b60d-54611798c885" />
+
+-  Decision Tree: ROC-AUC = 0.75 <img width="584" alt="Decision tree Eva" src="https://github.com/user-attachments/assets/9e183b00-5f96-40ad-9434-4c69e144f741" />
 - 	XGBoost: ROC-AUC = 0.85 
+
 
 ### Recommendations 
 - Feature Engineering: Add interaction terms or polynomial features to better capture non-linear relationships.
