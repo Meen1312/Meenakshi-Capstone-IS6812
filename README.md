@@ -1,4 +1,16 @@
 # Home Credit  Default Risk Analysis
+
+## Table of Contents 
+ 
+
+ - [Objectives](#objectives)
+ - [Exploratory Data Analysis](#exploratory-data-analysis)
+ - [Results And Success Metrics](#results-and-success-metrics)
+ - [Recommendations](#recommendations)
+ - [Limitations](#limitations)
+ - [Summary](#summary)
+  
+
 ### Business Problem : 
  Home Credit, founded in 1997, operates across multiple Asian and European markets with a mission to provide responsible lending. However, the challenge lies in assessing consumer trustworthiness due to limited credit history and data. This project aims to build a predictive model to enhance loan eligibility assessments, mitigate risks, and improve customer satisfaction, boosting revenue and operational efficiency.
 #### Objectives:
@@ -6,12 +18,10 @@
 -	Improve loan repayment success by 30%.
 -	Increase low-risk loan approvals by 25%.
 -	Achieve a 35% improvement in customer satisfaction.
-#### Tools
--PRoc, 
-
-  - Data Preprocessing: Designed pipelines to clean and preprocess training and testing datasets, Exploratory Data Analysis (EDA)
-            -1	Analyzed class imbalance (91% non-defaults, 9% defaults).
-            -2 Visualized non-linear relationships between income, credit amount, and default status.
+#### Exploratory Data Analysis 
+- Data Preprocessing: Designed pipelines to clean and preprocess training and testing datasets, Exploratory Data Analysis (EDA)
+   1.	Analyzed class imbalance (91% non-defaults, 9% defaults).
+   2. Visualized non-linear relationships between income, credit amount, and default status.
   - Feature Engineering: Transformed categorical variables, handled class imbalance, and selected predictive features.
   - Model Development: Built and optimized machine learning models, including Logistic Regression, Decision Trees, and XGBoost.
   - Evaluation and Visualization: Created ROC-AUC plots, confusion matrices, and performance metrics for comparison.
