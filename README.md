@@ -2,7 +2,6 @@
 
 ## Table of Contents 
  
-
   - [Objectives](#objectives)
   - [Solution to the Business Problem ](#solution-to-the-business-problem)
   - [My Contributions](#my-contributions)
